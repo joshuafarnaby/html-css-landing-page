@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body > div {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15vw;
+}
+
+.nav-section, 
+.footer-section {
+    flex: 0 1 50px;
+}
+
+.nav-section,
+.hero-section,
+.footer-section {
+    background-color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.nav-section {
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 20px; */
+}
+
+.nav-section a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
