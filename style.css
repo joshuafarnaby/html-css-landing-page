@@ -101,3 +101,8 @@ body > div {
 .img-container p {
     color: #1F2937;
 }
+
+.footer-section > p {
+    color: #E5E7EB;
+    font-size: 12px;
+}
