@@ -102,6 +102,35 @@ body > div {
     color: #1F2937;
 }
 
+.card-section {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.card-section > h3 {
+    font-size: 36px;
+}
+
+.card-group { 
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    max-width: 125px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.card-group .card-img {
+    height: 125px;
+    width: 100%;
+    border: 3px solid #3882F6;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+
 .footer-section > p {
     color: #E5E7EB;
     font-size: 12px;
