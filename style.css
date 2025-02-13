@@ -160,3 +160,42 @@ body > div {
     font-size: 20px;
     align-self: flex-end;
 }
+
+.cta-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    width: 100%;
+    padding: 24px 44px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-main-text,
+.cta-subtext,
+.cta-btn {
+    color:#F9FAF8
+}
+
+.cta-main-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cta-subtext {
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top: 2px;
+}
+
+.cta-btn {
+    border: 1px solid #F9FAF8;
+    padding: 3px 6px;
+    background-color: #3882F6;
+    border-radius: 6px;
+}
